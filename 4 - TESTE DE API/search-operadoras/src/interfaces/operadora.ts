@@ -1,0 +1,18 @@
+export interface operadora {
+    "Registro ANS": number,
+    CNPJ: String,
+    "Razao Social": string,
+    "Nome Fantasia": string,
+    Modalidade: string,
+    Logradouro: string,
+    Numero: string,
+    Complemento: string,
+    Bairro: string,
+    Cidade: string,
+    UF: string,
+    CEP: string,
+    DDD: number,
+    Telefone: string,
+    "Endereco eletrônico": string,
+    Representante: string,
+}

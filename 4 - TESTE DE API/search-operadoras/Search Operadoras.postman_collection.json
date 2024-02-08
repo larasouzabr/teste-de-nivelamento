@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "1585979a-ac62-4727-a385-679664228f2d",
+		"name": "Search Operadoras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32863501"
+	},
+	"item": [
+		{
+			"name": "get dados",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/dados",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"dados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pesquisar query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/busca/CENTRO",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"busca",
+						"CENTRO"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
